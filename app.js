@@ -1,3 +1,5 @@
+
+
 const buttonpink= document.getElementById('pink');
 
 buttonpink.addEventListener('click', () => {
@@ -20,3 +22,15 @@ const buttonblue= document.getElementById('blue');
 buttonblue.addEventListener('click', () => {
     main.style.background = 'blue';
 })
+
+const nameHere = document.getElementById('namebutton');
+nameHere.addEventListener('click', ()=>{
+    const myInput = document.getElementById('namefield');
+    
+    const namePrint=myInput.value;
+    const nameWritten= document.getElementById('namehere')
+    nameWritten.textContent= namePrint;
+
+})
+
+

@@ -38,17 +38,19 @@ body {
 .paragraph {
     background-color: white;
     color:black ;
-    font-size: 25px;
+    font-size: 50px;
+    font-family: cursive
+    
+    
     width:100%;
     text-align: center;
 
 }
-.nameEntered{
-    align-items: center;
-}
+
+
 .label {
     align-items: center;
-    si
+    font-size:10px;
 }
 .foot {
     align-self: center;
