@@ -25,9 +25,9 @@ body {
   border-radius: 25px;
   background-color: red;
   padding: 20px; 
-  width: 300px;
-  height: 200px;
-}
+  width: 500px;
+  height: 300px;
+}              
 .hello {
     color: white;
     font-size: 50px;
@@ -35,10 +35,12 @@ body {
 
     
 }
-.nameis {
-    color: white;
+.paragraph {
+    background-color: white;
+    color:black ;
     font-size: 25px;
-    text-alight: center;
+    width:100%;
+    text-align: center;
 
 }
 .nameEntered{
@@ -48,19 +50,27 @@ body {
     align-items: center;
     si
 }
+.foot {
+    align-self: center;
+}
 .button {
-    background-color: white; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    
   }
   
-  .button2 {background-color: pink;} 
-  .button3 {background-color: lightgreen;} 
-  .button4 {background-color: lightblue;}
+  .buttonpink {
+      background-color: pink;
+
+    
+   
+} 
+  .buttongreen {
+      background-color: lightgreen;
+ 
+
+
+  }
+  .buttonblue {
+      background-color: lightblue;
+   
+   
+}
