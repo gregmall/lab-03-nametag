@@ -23,6 +23,11 @@ buttonblue.addEventListener('click', () => {
     main.style.background = 'blue';
 })
 
+const buttonred= document.getElementById('red');
+buttonred.addEventListener('click', () => {
+    main.style.background = 'red';
+})
+
 const nameHere = document.getElementById('namebutton');
 nameHere.addEventListener('click', ()=>{
     const myInput = document.getElementById('namefield');

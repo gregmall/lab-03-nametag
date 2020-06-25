@@ -20,10 +20,12 @@ body {
     
     font-family: 'Titillium Web', sans-serif;
     background-color: white;
+    
 }
 .main {
   border-radius: 25px;
   background-color: red;
+  color: black:
   padding: 20px; 
   width: 500px;
   height: 300px;
@@ -53,6 +55,7 @@ body {
 .label {
     align-items: center;
     font-size:10px;
+    color: black
 }
 .foot {
     align-self: center;
